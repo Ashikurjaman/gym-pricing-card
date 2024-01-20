@@ -1,0 +1,47 @@
+
+[
+      {
+        "id": 1,
+        "membership_type": "Basic",
+        "start_date": "2024-02-01",
+        "end_date": "2024-07-31",
+        "customer": {
+          "id": 201,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com",
+          "phone": "+1 (555) 987-6543",
+          "price": "150"
+        },
+        "image_link": "https://example.com/basic_membership_image.jpg"
+      },
+      {
+        "id": 2,
+        "membership_type": "Premium",
+        "start_date": "2024-03-15",
+        "end_date": "2024-12-31",
+        "customer": {
+          "id": 302,
+          "name": "Robert Johnson",
+          "email": "robert.j@example.com",
+          "phone": "+1 (555) 111-2222",
+          "price": "250"
+        },
+        "image_link": "https://example.com/premium_membership_image.jpg"
+      },
+      {
+        "id": 3,
+        "membership_type": "Family Plan",
+        "start_date": "2024-04-10",
+        "end_date": "2024-11-30",
+        "customer": {
+          "id": 403,
+          "name": "Chris Williams",
+          "email": "chris.w@example.com",
+          "phone": "+1 (555) 333-4444",
+          "price": "350"
+        },
+        "image_link": "https://example.com/family_plan_membership_image.jpg"
+      }
+    ]
+
+  
