@@ -1,5 +1,7 @@
 import './App.css'
+import Dashboard from './components/Dashboard/Dashboard'
 import Navbar from './components/Navbar/Navbar'
+import PhoneChart from './components/PhoneChart/PhoneChart'
 import Price from './components/Price/Price'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       Hello world!
     </h1>
     <Price/>
+    <Dashboard/>
+    <PhoneChart/>
         
     </>
   )

@@ -13,7 +13,7 @@ const Price = () => {
         <div>
             <h1 className='text-6xl p-4 bg-purple-400 text-purple-900 text-center '>Awesome Affordable Price</h1>
 
-            <div className='grid grid-cols-3 gap-3  '>
+            <div className='grid md:grid-cols-3 gap-3 px-3 '>
                 {
                     products.map(product=><Card key={product.id} product={product}/>)
                 }
